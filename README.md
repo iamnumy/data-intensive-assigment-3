@@ -34,33 +34,30 @@ This project demonstrates a data-intensive system using **MongoDB**, **Node.js**
 ## ⚙️ Installation
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/iamnumy/data-intensive-assigment-3.git
 cd data-intensive-assigment-3
 
 ### 2. Setup Backend
 1. Navigate to the `backend` directory:
-   ```bash
    cd backend
 
 ### 2. Install the required dependencies:
- ```bash
+
 npm install
 
 ### 3.Create a .env file in the backend directory and add your MongoDB URIs and server port configuration:
-  ```bash
+
 MONGO_URI_DB1=mongodb://localhost:27017/dbHelsinki
 MONGO_URI_DB2=mongodb://localhost:27017/dbLahti
 MONGO_URI_DB3=mongodb://localhost:27017/dbTampere
 PORT=5000
 
 ### 4. Start the backend server:
-  ```bash
 node server.js
 
 
 ### 3. Setup Frontend
-
 ### 1.Navigate to the frontend directory:
    ```bash
     cd ../frontend
